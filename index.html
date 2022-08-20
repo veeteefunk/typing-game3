@@ -4,48 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Speed Typing Race | Javascript</title>
+    <title>Typewriting Animation</title>
 </head>
 <body>
 
-    <button id="settings-btn" class="settings-btn">
-        <i class="fas fa-cog"></i>
-    </button>
-
-    <div id="settings" class="settings">
-        <form id="settings-form">
-            <div>
-                <label for="difficulty">Difficulty</label>
-                <select id="difficulty">
-                    <option value="easy">Easy</option>
-                    <option value="medium">Medium</option>
-                    <option value="hard">Hard</option>
-                </select>
-            </div>
-        </form>
-    </div>
-
     <div class="container">
-        <h2>🏎️ Speed Typing Race 🔥</h2>
-        <small>Type the following:</small>
-
-        <h1 id="word"></h1>
-        
-        <input type="text" id="text"
-         autocomplete="off" placeholder="Type the word here...">
-        
-        <p class="time-container">
-            Time left: <span id="time">10s</span>
-        </p>
-        
-        <p class="score-container">
-            Score: <span id="score">0</span>
-        </p>
-
-        <div id="end-game-container" class="end-game-container"></div>
-
+        <label for="email-id">Automatic Typing</label>
+        <input type="email" id="email-id">
     </div>
     
     <script src="app.js"></script>
